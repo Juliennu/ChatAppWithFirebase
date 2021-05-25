@@ -7,5 +7,10 @@ target 'ChatAppWithFirebase' do
 
   # Pods for ChatAppWithFirebase
 pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
+pod 'Google-Mobile-Ads-SDK'
+pod 'Firebase/InAppMessaging'
 
 end
