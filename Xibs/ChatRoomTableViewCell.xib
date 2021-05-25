@@ -36,7 +36,7 @@
                             <constraint firstAttribute="width" constant="250" id="Nzj-K7-cui"/>
                         </constraints>
                         <color key="textColor" systemColor="labelColor"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                     </textView>
                 </subviews>
@@ -53,6 +53,7 @@
             <connections>
                 <outlet property="dataLabel" destination="l5R-RV-kiV" id="2rt-Eh-Ucj"/>
                 <outlet property="messageTextView" destination="9Vy-kW-xLK" id="1Je-Kn-OHx"/>
+                <outlet property="messageTextViewWidthConstraint" destination="Nzj-K7-cui" id="txx-A5-E1t"/>
                 <outlet property="userImageView" destination="cek-ch-LUj" id="e3X-lW-COZ"/>
             </connections>
             <point key="canvasLocation" x="260.14492753623188" y="58.258928571428569"/>

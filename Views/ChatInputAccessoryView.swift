@@ -7,12 +7,27 @@
 
 import UIKit
 
+protocol ChatInputAccessoryViewDelegate: AnyObject  {
+    func tappedSendButton(text: String)
+}
+
+
 //xibファイルのFile's Ownerと紐付けをする
 class ChatInputAccessoryView: UIView {
     
     
     @IBOutlet weak var chatTextView: UITextView!
     @IBOutlet weak var sendButton: UIButton!
+    
+    @IBAction func tappedSendButton(_ sender: Any) {
+        guard  let text = chatTextView.text else { return }
+        delegate?.tappedSendButton(text: text)
+    }
+    
+    
+    weak var delegate: ChatInputAccessoryViewDelegate?
+    
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -34,7 +49,17 @@ class ChatInputAccessoryView: UIView {
         sendButton.contentHorizontalAlignment = .fill
         sendButton.contentVerticalAlignment = .fill
         sendButton.isEnabled = false//初期の状態でボタンを押せないようにする
+        
+        chatTextView.text = ""
+        chatTextView.delegate = self
     }
+    
+    func removeText() {
+        chatTextView.text = ""
+        sendButton.isEnabled = false
+    }
+    
+    
 //chatTextView（メッセージ入力欄）の高さを文字数によって変動させる
     override var intrinsicContentSize: CGSize {
         return .zero
@@ -62,4 +87,27 @@ class ChatInputAccessoryView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+  
+    
 }
+
+
+extension ChatInputAccessoryView: UITextViewDelegate {
+//    textViewの変更を確認できる
+    func textViewDidChange(_ textView: UITextView) {
+ 
+//        textViewの入力がされていなければsendボタンを押せないようにする
+        if textView.text.isEmpty {
+            sendButton.isEnabled = false
+        }else {
+            sendButton.isEnabled = true
+        }
+    }
+    
+    
+    
+    
+    
+}
+

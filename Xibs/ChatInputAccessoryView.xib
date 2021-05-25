@@ -30,6 +30,9 @@
                     <state key="normal">
                         <imageReference key="image" image="paperplane.fill" catalog="system" symbolScale="medium"/>
                     </state>
+                    <connections>
+                        <action selector="tappedSendButton:" destination="-1" eventType="touchUpInside" id="gOe-PR-Yg2"/>
+                    </connections>
                 </button>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="text here!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SVN-xB-u21">
                     <rect key="frame" x="10" y="10" width="327" height="76"/>
