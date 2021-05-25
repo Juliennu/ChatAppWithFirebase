@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellId" rowHeight="126" id="GQF-1I-zbI" customClass="ChatRoomTableViewCell" customModule="ChatAppWithFirebase" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="531" height="126"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GQF-1I-zbI" id="1UG-Wu-i5C">
+                <rect key="frame" x="0.0" y="0.0" width="531" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wilsonStump" translatesAutoresizingMaskIntoConstraints="NO" id="cek-ch-LUj">
+                        <rect key="frame" x="15" y="35.5" width="60" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="cek-ch-LUj" secondAttribute="height" multiplier="1.1" id="QWZ-rw-Dvc"/>
+                            <constraint firstAttribute="width" constant="60" id="mgi-Jb-9i6"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17:15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5R-RV-kiV">
+                        <rect key="frame" x="340" y="70" width="39" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" text="メッセージ" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vy-kW-xLK">
+                        <rect key="frame" x="87" y="25" width="250" height="91"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="250" id="Nzj-K7-cui"/>
+                        </constraints>
+                        <color key="textColor" systemColor="labelColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9Vy-kW-xLK" firstAttribute="bottom" secondItem="l5R-RV-kiV" secondAttribute="bottom" constant="10" id="1hr-oB-4mf"/>
+                    <constraint firstItem="l5R-RV-kiV" firstAttribute="leading" secondItem="9Vy-kW-xLK" secondAttribute="trailing" constant="5" id="7Tv-xz-EQY"/>
+                    <constraint firstItem="9Vy-kW-xLK" firstAttribute="top" secondItem="1UG-Wu-i5C" secondAttribute="top" constant="25" id="CNI-F4-1Lj"/>
+                    <constraint firstItem="cek-ch-LUj" firstAttribute="leading" secondItem="1UG-Wu-i5C" secondAttribute="leading" constant="15" id="XBG-rl-wOc"/>
+                    <constraint firstItem="cek-ch-LUj" firstAttribute="centerY" secondItem="1UG-Wu-i5C" secondAttribute="centerY" id="kFu-ha-k6g"/>
+                    <constraint firstItem="9Vy-kW-xLK" firstAttribute="leading" secondItem="cek-ch-LUj" secondAttribute="trailing" constant="10" id="n4x-p2-ST5"/>
+                    <constraint firstAttribute="bottom" secondItem="9Vy-kW-xLK" secondAttribute="bottom" constant="25" id="yns-pc-Ce0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dataLabel" destination="l5R-RV-kiV" id="2rt-Eh-Ucj"/>
+                <outlet property="messageTextView" destination="9Vy-kW-xLK" id="1Je-Kn-OHx"/>
+                <outlet property="userImageView" destination="cek-ch-LUj" id="e3X-lW-COZ"/>
+            </connections>
+            <point key="canvasLocation" x="260.14492753623188" y="58.258928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="wilsonStump" width="512" height="384"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
