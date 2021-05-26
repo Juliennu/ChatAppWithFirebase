@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4162B0265E22090093C6A4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4162AF265E22090093C6A4 /* User.swift */; };
 		1ABE923626595F31009E3C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE923526595F31009E3C6C /* AppDelegate.swift */; };
 		1ABE923826595F31009E3C6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE923726595F31009E3C6C /* SceneDelegate.swift */; };
 		1ABE923F26595F32009E3C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE923E26595F32009E3C6C /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4162AF265E22090093C6A4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1ABE923226595F31009E3C6C /* ChatAppWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABE923526595F31009E3C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABE923726595F31009E3C6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4162AE265E21D70093C6A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A4162AF265E22090093C6A4 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1ABE922926595F31009E3C6C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		1ABE923426595F31009E3C6C /* ChatAppWithFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				1A4162AE265E21D70093C6A4 /* Models */,
 				1ABE925B265B846A009E3C6C /* Extensions */,
 				1ABE925A265B8463009E3C6C /* Views */,
 				1ABE9259265B844D009E3C6C /* Xibs */,
@@ -285,6 +296,7 @@
 				1AFCDF78265CE97D00B2364E /* SignUpViewController.swift in Sources */,
 				1ABE9250265B4527009E3C6C /* UIColor-Extension.swift in Sources */,
 				1ABE9254265B4A5F009E3C6C /* ChatRoomViewController.swift in Sources */,
+				1A4162B0265E22090093C6A4 /* User.swift in Sources */,
 				1ABE924C265960C3009E3C6C /* ChatListViewController.swift in Sources */,
 				1ABE9258265B6DCD009E3C6C /* ChatRoomTableViewCell.swift in Sources */,
 				1ABE923826595F31009E3C6C /* SceneDelegate.swift in Sources */,
@@ -430,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8K9JFKB9X4;
 				INFOPLIST_FILE = ChatAppWithFirebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8K9JFKB9X4;
 				INFOPLIST_FILE = ChatAppWithFirebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
