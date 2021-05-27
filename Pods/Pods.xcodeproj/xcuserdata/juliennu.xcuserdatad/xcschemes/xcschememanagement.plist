@@ -130,19 +130,26 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
-		<key>Pods-ChatAppWithFirebase.xcscheme</key>
+		<key>Nuke.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
-		<key>PromisesObjC.xcscheme</key>
+		<key>Pods-ChatAppWithFirebase.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>25</integer>
+		</dict>
+		<key>PromisesObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>26</integer>
 		</dict>
 		<key>abseil.xcscheme</key>
 		<dict>
