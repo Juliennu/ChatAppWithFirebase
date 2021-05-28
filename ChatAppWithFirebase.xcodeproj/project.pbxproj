@@ -10,6 +10,7 @@
 		1A4162B0265E22090093C6A4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4162AF265E22090093C6A4 /* User.swift */; };
 		1A4162B2265E3F8B0093C6A4 /* UserList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4162B1265E3F8B0093C6A4 /* UserList.storyboard */; };
 		1A4162B4265E42870093C6A4 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4162B3265E42870093C6A4 /* UserListViewController.swift */; };
+		1A8237FA266089A700CE085F /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8237F9266089A700CE085F /* ChatRoom.swift */; };
 		1ABE923626595F31009E3C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE923526595F31009E3C6C /* AppDelegate.swift */; };
 		1ABE923826595F31009E3C6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE923726595F31009E3C6C /* SceneDelegate.swift */; };
 		1ABE923F26595F32009E3C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE923E26595F32009E3C6C /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		1A4162AF265E22090093C6A4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1A4162B1265E3F8B0093C6A4 /* UserList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserList.storyboard; sourceTree = "<group>"; };
 		1A4162B3265E42870093C6A4 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		1A8237F9266089A700CE085F /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		1ABE923226595F31009E3C6C /* ChatAppWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ABE923526595F31009E3C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ABE923726595F31009E3C6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				1A4162AF265E22090093C6A4 /* User.swift */,
+				1A8237F9266089A700CE085F /* ChatRoom.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				1ABE924C265960C3009E3C6C /* ChatListViewController.swift in Sources */,
 				1ABE9258265B6DCD009E3C6C /* ChatRoomTableViewCell.swift in Sources */,
 				1ABE923826595F31009E3C6C /* SceneDelegate.swift in Sources */,
+				1A8237FA266089A700CE085F /* ChatRoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
