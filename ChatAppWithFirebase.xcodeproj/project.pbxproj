@@ -10,6 +10,8 @@
 		1A4162B0265E22090093C6A4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4162AF265E22090093C6A4 /* User.swift */; };
 		1A4162B2265E3F8B0093C6A4 /* UserList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4162B1265E3F8B0093C6A4 /* UserList.storyboard */; };
 		1A4162B4265E42870093C6A4 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4162B3265E42870093C6A4 /* UserListViewController.swift */; };
+		1A5458002664BD3D00C7872C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5457FF2664BD3D00C7872C /* Login.storyboard */; };
+		1A5458022664BF7100C7872C /* LoginViewCntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5458012664BF7100C7872C /* LoginViewCntroller.swift */; };
 		1A8237FA266089A700CE085F /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8237F9266089A700CE085F /* ChatRoom.swift */; };
 		1A8237FC2660E39D00CE085F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8237FB2660E39D00CE085F /* Message.swift */; };
 		1ABE923626595F31009E3C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE923526595F31009E3C6C /* AppDelegate.swift */; };
@@ -35,6 +37,8 @@
 		1A4162AF265E22090093C6A4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1A4162B1265E3F8B0093C6A4 /* UserList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserList.storyboard; sourceTree = "<group>"; };
 		1A4162B3265E42870093C6A4 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		1A5457FF2664BD3D00C7872C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		1A5458012664BF7100C7872C /* LoginViewCntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewCntroller.swift; sourceTree = "<group>"; };
 		1A8237F9266089A700CE085F /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		1A8237FB2660E39D00CE085F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1ABE923226595F31009E3C6C /* ChatAppWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +130,7 @@
 				1ABE9253265B4A5F009E3C6C /* ChatRoomViewController.swift */,
 				1AFCDF77265CE97D00B2364E /* SignUpViewController.swift */,
 				1A4162B3265E42870093C6A4 /* UserListViewController.swift */,
+				1A5458012664BF7100C7872C /* LoginViewCntroller.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				1ABE9251265B49A7009E3C6C /* ChatRoom.storyboard */,
 				1AFCDF75265CE4D200B2364E /* SignUp.storyboard */,
 				1A4162B1265E3F8B0093C6A4 /* UserList.storyboard */,
+				1A5457FF2664BD3D00C7872C /* Login.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -251,6 +257,7 @@
 				1ABE925D265B8531009E3C6C /* ChatInputAccessoryView.xib in Resources */,
 				1ABE9252265B49A7009E3C6C /* ChatRoom.storyboard in Resources */,
 				1AFCDF76265CE4D200B2364E /* SignUp.storyboard in Resources */,
+				1A5458002664BD3D00C7872C /* Login.storyboard in Resources */,
 				1AFCDF74265CB6D500B2364E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +319,7 @@
 				1A4162B4265E42870093C6A4 /* UserListViewController.swift in Sources */,
 				1A4162B0265E22090093C6A4 /* User.swift in Sources */,
 				1ABE924C265960C3009E3C6C /* ChatListViewController.swift in Sources */,
+				1A5458022664BF7100C7872C /* LoginViewCntroller.swift in Sources */,
 				1ABE9258265B6DCD009E3C6C /* ChatRoomTableViewCell.swift in Sources */,
 				1A8237FC2660E39D00CE085F /* Message.swift in Sources */,
 				1ABE923826595F31009E3C6C /* SceneDelegate.swift in Sources */,
