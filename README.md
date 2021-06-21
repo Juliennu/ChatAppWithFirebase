@@ -17,7 +17,7 @@
 - This app uses Firebase for user authentication and  as chat information storage.
 
 ## Reference
-- I made this app by referring to the youtube of the link　below. <br>https://www.youtube.com/playlist?list=PLJGQf09UDweLB6NGPoYnNL7j_z0Rzkpgr</br>
+- I made this app by referring to the youtube of the link below. <br>https://www.youtube.com/playlist?list=PLJGQf09UDweLB6NGPoYnNL7j_z0Rzkpgr</br>
 
 ## Licence
 MIT
