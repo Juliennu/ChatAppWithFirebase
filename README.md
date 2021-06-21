@@ -1,5 +1,5 @@
 # ChatAppWithFirebase
-
+![result](https://user-images.githubusercontent.com/76898162/122705650-20f5c280-d291-11eb-83ab-056fff00fe45.gif)
 <img src="https://user-images.githubusercontent.com/76898162/122634305-62af2d80-d118-11eb-8af2-77c18496d4e2.png" width="320px"> 
 
 ## Overview
