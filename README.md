@@ -9,6 +9,7 @@
 - Xcode 12.5
 
 ## Usage
+- Anyone who wants to work with this app needs to go through the process of setting up Firebase.
 - Register your e-mail address, password (6 characters or more), user name, and icon image (non-essential) on the sign-up screen.
 - Select the users that are registered in this app from the chat list, then you can start chats!
 
