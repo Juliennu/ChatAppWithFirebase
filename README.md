@@ -7,6 +7,12 @@
 ## Environment
 - macOS 11.4
 - Xcode 12.5
+- Swift
+- Firebase
+- Alamofire
+- Nuke
+- AdMob
+- Swift Package Manager, CocoaPods
 
 ## Usage
 - Anyone who wants to work with this app needs to go through the process of setting up Firebase.
