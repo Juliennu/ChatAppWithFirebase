@@ -11,7 +11,6 @@
 - Firebase
 - Alamofire
 - Nuke
-- AdMob
 - Swift Package Manager, CocoaPods
 
 ## Usage
